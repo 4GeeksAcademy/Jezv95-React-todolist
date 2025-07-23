@@ -1,11 +1,33 @@
 /* 
 
     You can write your own styles here...
-    
+   
     
     ...Or you can use the import command to include 
     other sylesheets into your bunde as well, e.j:
     
     import 'relative/path/to/stylesheet.scss';
-
+  .showdeletebutton button{
+    display: none;
+     .showdeletebutton :hover{
+    display:block;
+ }
+ }
 */
+ 
+
+
+ 
+ .delete{
+
+  display:none;
+  font-weight: normal;
+}
+
+.list-group-item:hover .delete {
+  display: inline;
+  color: rgb(186, 149, 149);
+  font-weight:normal;
+  font-size: 15px;
+  cursor:default;
+}
