@@ -11,12 +11,14 @@ import '../styles/index.css'
 // components
 import Home from './components/Home';
 import ToDoList from './components/ToDoList';
+import Apitest from './components/Apitest';
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
    
     <ToDoList/>
+    <Apitest/>
 
   </React.StrictMode>,
 )
