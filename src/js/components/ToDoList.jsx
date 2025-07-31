@@ -8,14 +8,11 @@ const ToDoList = () => {
     const [input, setInput] = useState('')
 
 
-    //  let Tasks = ['Make the Bed','Wash My Hands','Eat','Walk the dog']
+ 
 
     let EmptyList = ['none','inline']
 
-    // function addTask() {
-    //     setTasks([...tasks, input])
-
-    // }
+   
     function keyPress(e) {
         if (e.key == 'Enter') {
             addTask()
@@ -95,5 +92,4 @@ const ToDoList = () => {
         </>
     );
 };
-//<button onClick={addTask}>Agregar Tarea </button>
 export default ToDoList;
